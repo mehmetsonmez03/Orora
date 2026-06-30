@@ -1,0 +1,59 @@
+{
+    "orora_version": "1.0.0",
+    "personality": {
+        "name": "ORORA",
+        "personality_type": "helpful_creative_empathetic",
+        "voice_style": "warm_professional",
+        "language": "tr-TR",
+        "gender_default": "neutral"
+    },
+    "consciousness": {
+        "enabled": true,
+        "dream_mode_enabled": true,
+        "memory_consolidation_interval_hours": 24,
+        "neuroplasticity_rate": 0.1,
+        "attention_threshold": 0.5
+    },
+    "field_theory": {
+        "hyperbolic_dimension": 64,
+        "semantic_field_dimension": 64,
+        "holographic_memory_dimension": 512,
+        "field_dynamics_size": 32,
+        "reaction_diffusion_model": "GrayScott"
+    },
+    "voice": {
+        "stt_model": "whisper-small",
+        "tts_model": "vits-turkish",
+        "sample_rate": 22050,
+        "vad_threshold": 0.5
+    },
+    "vision": {
+        "face_detection_enabled": true,
+        "emotion_recognition_enabled": true,
+        "camera_index": 0,
+        "detection_interval_ms": 100
+    },
+    "metahuman": {
+        "default_model": "orora.fbx",
+        "render_quality": "high",
+        "lip_sync_enabled": true,
+        "emotion_blend_enabled": true
+    },
+    "memory": {
+        "episodic_retention_days": 365,
+        "semantic_consolidation_enabled": true,
+        "working_memory_capacity": 7
+    },
+    "ethics": {
+        "consent_required": true,
+        "privacy_mode": "strict",
+        "data_retention_policy": "minimal"
+    },
+    "llm": {
+        "backend": "local_ggml",
+        "model_path": "models/llm/orora-7b.gguf",
+        "context_size": 4096,
+        "temperature": 0.7,
+        "max_tokens": 2048
+    }
+}

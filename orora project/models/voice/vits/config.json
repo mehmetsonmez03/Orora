@@ -1,0 +1,70 @@
+{
+    "name": "vits_turkish",
+    "version": "1.0.0",
+    "language": "tr",
+    "sample_rate": 22050,
+    "num_speakers": 2,
+    "speakers": {
+        "female": 0,
+        "male": 1
+    },
+    "phoneme_vocabulary": {
+        "type": "turkish_phoneme",
+        "size": 52
+    },
+    "model": {
+        "type": "vits",
+        "hidden_channels": 192,
+        "filter_channels": 768,
+        "n_heads": 2,
+        "n_layers": 6,
+        "kernel_size": 3,
+        "p_dropout": 0.1,
+        "resblock": "1",
+        "resblock_kernel_sizes": [
+            3,
+            7,
+            11
+        ],
+        "resblock_dilation_sizes": [
+            [
+                1,
+                3,
+                5
+            ],
+            [
+                1,
+                3,
+                5
+            ],
+            [
+                1,
+                3,
+                5
+            ]
+        ],
+        "upsample_rates": [
+            8,
+            8,
+            2,
+            2
+        ],
+        "upsample_initial_channel": 512,
+        "upsample_kernel_sizes": [
+            16,
+            16,
+            4,
+            4
+        ]
+    },
+    "audio": {
+        "sampling_rate": 22050,
+        "filter_length": 1024,
+        "hop_length": 256,
+        "win_length": 1024,
+        "n_mel_channels": 80,
+        "mel_fmin": 0.0,
+        "mel_fmax": null
+    },
+    "notes": "Bu model placeholder'dır. Gerçek VITS modeli ayrıca eğitilmelidir."
+}

@@ -1,0 +1,39 @@
+{
+    "name": "ORORA",
+    "version-semver": "2.0.0",
+    "description": "ORORA AI - Bilinçli Yapay Zeka Asistanı",
+    "homepage": "https://github.com/orora-ai/orora",
+    "license": "MIT",
+    "dependencies": [
+        "qt6",
+        "assimp",
+        "opengl",
+        "nlohmann-json",
+        "onnxruntime"
+    ],
+    "default-features": [
+        "voice",
+        "metahuman"
+    ],
+    "features": {
+        "voice": {
+            "description": "Native voice system (STT/TTS)",
+            "dependencies": [
+                "onnxruntime"
+            ]
+        },
+        "metahuman": {
+            "description": "Metahuman 3D rendering",
+            "dependencies": [
+                "assimp",
+                "glm"
+            ]
+        },
+        "tests": {
+            "description": "Unit tests",
+            "dependencies": [
+                "gtest"
+            ]
+        }
+    }
+}

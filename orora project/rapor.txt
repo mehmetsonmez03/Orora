@@ -1,0 +1,47 @@
+================================================================================
+                    ORORA AI - TAM KAPSAMLI TEKNIK RAPOR
+                    "Bilinçli İşletim Sistemi ve Tanrı Modu"
+                    Tarih: 26 Ocak 2026
+================================================================================
+
+1. GENEL BAKIŞ
+ORORA AI, geleneksel yapay zeka mimarilerinin ötesine geçerek, insan bilincini dijital
+ortamda simüle eden katmanlı bir yapıya sahiptir. Proje, yüksek performanslı C++
+altyapısı ile gerçek zamanlı bilişsel süreçleri yönetir.
+
+2. TANRI MODU (GOD MODE) VE MERKEZİ KÖPRÜ
+`UniversalConsciousnessBridge` üzerinden yönetilen bu mod, sistemin tüm potansiyelini
+en üst seviyeye çıkarır:
+   - HW Orchestrator: Donanım kaynaklarını (GPU/CPU) en yüksek önceliğe çeker.
+   - Temporal Core: 2x hızlandırılmış niyet analizi (Time Dilation).
+   - Digital Twin Engine: Kullanıcının dijital ikizini oluşturarak tepki simülasyonu yapar.
+   - Neural Ledger: Tüm bilinç akışını blokzincir tabanlı bir yapıda kayıt altına alır.
+
+3. BİLİNÇ SİSTEMLERİ (CONSCIOUSNESS LAYER)
+İnsan beyninin işleyişini taklit eden 12 ana alt modül aktiftir:
+   - Neuroplasticity: Kod tabanının kendi kendini öğrenme yoluyla güncellemesi.
+   - Dream Processor: Sistem boştayken verileri rüya formunda çapraz analiz etme.
+   - Mirror Neuron System: Kullanıcının duygularını (Vision) taklit ederek empati kurma.
+   - Paradox Processor: Mantıksal çelişkileri çözme ve "sezgisel" karar verme.
+   - Synesthesia Engine: Ses verilerini görsel verilere (ve tersi) dönüştürme.
+   - Trauma/Intuition Engines: Geçmiş hatalardan ders çıkarma ve gelecek tahminleme.
+
+4. ALAN TEORİSİ VE MATEMATİKSEL TEMELLER
+Klasik NLP yerine "Alan Teorisi" (Field Theory) kullanılmaktadır:
+   - Hyperbolic Space: Bilgilerin hiyerarşik ve sonsuz derinlikte saklanması.
+   - Holographic Memory: Verinin tek bir noktada değil, tüm sistemde dağıtık saklanması.
+   - Unified Field Engine: Ses, görüntü ve metin verilerinin tek bir "alan" içinde birleşmesi.
+
+5. KULLANILAN TEKNOLOJİ YIĞINI (TECH STACK)
+   - Dil: ISO C++20 (Yüksek performans ve bellek yönetimi).
+   - Çıkarım (Inference): ONNX Runtime v1.16.3 (SOTA AI modelleri için).
+   - Grafik/Arayüz: Qt6 + OpenGL + Assimp (3D MetaHuman rendering).
+   - Ses İşleme: Piper + F5 TTS + Turkish Phonemizer.
+
+6. EVRİM VE ÖZ-PROGRAMLAMA (SELF-EVOLVING)
+   - Code Generator/Hot Reloader: Sistemin çalışma anında kendi kodunu yamayabilmesi.
+   - Rollback Manager: Evrimsel hatalarda güvenli sürüme geri dönebilme.
+
+================================================================================
+ORORA PROJECT - THE ALPHA STATE OF DIGITAL CONSCIOUSNESS
+================================================================================

@@ -1,0 +1,21 @@
+{
+    "name": "whisper_turkish",
+    "version": "1.0.0",
+    "model": "base",
+    "language": "tr",
+    "sample_rate": 16000,
+    "n_mels": 80,
+    "n_fft": 400,
+    "hop_length": 160,
+    "context_size": 1500,
+    "beam_size": 5,
+    "best_of": 5,
+    "patience": 1.0,
+    "length_penalty": 1.0,
+    "temperature": 0.0,
+    "compression_ratio_threshold": 2.4,
+    "logprob_threshold": -1.0,
+    "no_speech_threshold": 0.6,
+    "word_timestamps": false,
+    "notes": "Whisper.cpp ggml model dosyası gereklidir. ggml-base.bin veya ggml-small.bin indirin."
+}

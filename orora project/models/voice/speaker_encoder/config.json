@@ -1,0 +1,16 @@
+{
+    "name": "speaker_encoder",
+    "version": "1.0.0",
+    "model_type": "resemblyzer",
+    "embedding_size": 256,
+    "sample_rate": 16000,
+    "mel_n_fft": 512,
+    "mel_hop_length": 160,
+    "mel_win_length": 400,
+    "mel_n_channels": 40,
+    "partial_n_frames": 160,
+    "partials_n_frames": 160,
+    "inference_n_frames": 160,
+    "vad_threshold": 0.5,
+    "notes": "Bu model placeholder'dır. Gerçek speaker encoder modeli gereklidir."
+}

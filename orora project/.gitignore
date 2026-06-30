@@ -1,0 +1,84 @@
+# ORORA AI - Git Ignore
+
+# Build outputs
+build/
+out/
+x64/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.pdb
+*.ilk
+*.exp
+*.idb
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Dependencies
+vcpkg/
+external/onnxruntime/
+node_modules/
+
+# AI Models (large files)
+models/voice/whisper/*.bin
+models/voice/vits/*.onnx
+models/voice/vits/*.pt
+models/voice/speaker_encoder/*.onnx
+models/voice/speaker_encoder/*.pt
+
+# Python (legacy)
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+*.egg
+venv/
+env/
+.venv/
+bark_env/
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+Thumbs.db
+.DS_Store
+
+# User-specific
+exports/
+*.wav
+*.mp3
